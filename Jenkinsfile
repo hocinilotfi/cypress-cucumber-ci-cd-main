@@ -7,7 +7,7 @@ pipeline{
     }
     parameters{
         choice(name: 'ENV', choices: ['dev', 'staging', 'production'], description: 'Environment de test')
-        choise(name:'TEST_TYPE', choices: ['regression', 'smoke','sanity'], description: 'Type de test')
+        choice(name:'TEST_TYPE', choices: ['regression', 'smoke','sanity'], description: 'Type de test')
     }
 
     stages{
