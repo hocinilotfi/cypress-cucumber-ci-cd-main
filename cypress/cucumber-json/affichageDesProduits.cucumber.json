@@ -1,0 +1,84 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Affichage des produits",
+    "line": 6,
+    "id": "affichage-des-produits",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@tc-002",
+        "line": 2
+      },
+      {
+        "name": "@parcours-01",
+        "line": 3
+      },
+      {
+        "name": "@parcours-02",
+        "line": 4
+      },
+      {
+        "name": "@e2e",
+        "line": 5
+      }
+    ],
+    "uri": "affichageDesProduits.feature",
+    "elements": [
+      {
+        "id": "affichage-des-produits;vérifier-l'affichage-des-produits-après-connexion",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Vérifier l'affichage des produits après connexion",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@tc-002",
+            "line": 2
+          },
+          {
+            "name": "@parcours-01",
+            "line": 3
+          },
+          {
+            "name": "@parcours-02",
+            "line": 4
+          },
+          {
+            "name": "@e2e",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "la liste des produits doit être affichée",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

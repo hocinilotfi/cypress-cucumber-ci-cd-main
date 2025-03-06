@@ -1,0 +1,121 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Vérification du menu",
+    "line": 3,
+    "id": "vérification-du-menu",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@tc-008",
+        "line": 2
+      }
+    ],
+    "uri": "menu.feature",
+    "elements": [
+      {
+        "id": "vérification-du-menu;quand-je-clique-sur-le-bouton-\"item\",-rien-ne-change",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Quand je clique sur le bouton \"Item\", rien ne change",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@tc-008",
+            "line": 2
+          },
+          {
+            "name": "@menu",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "je clique sur le bouton \"Item\" du menu",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "aucune redirection ou changement de page ne se produit",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "vérification-du-menu;quand-je-clique-sur-le-bouton-\"logout\",-je-suis-redirigé-vers-la-page-de-connexion",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Quand je clique sur le bouton \"Logout\", je suis redirigé vers la page de connexion",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@tc-008",
+            "line": 2
+          },
+          {
+            "name": "@logout",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "je suis sur la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "je clique sur le bouton \"Logout\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "je devrais voir le bouton \"Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

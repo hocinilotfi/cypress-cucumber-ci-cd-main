@@ -1,0 +1,386 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test de la page de paiement sur SauceDemo",
+    "line": 4,
+    "id": "test-de-la-page-de-paiement-sur-saucedemo",
+    "tags": [
+      {
+        "name": "@tc-007",
+        "line": 1
+      },
+      {
+        "name": "@parcours-02",
+        "line": 2
+      },
+      {
+        "name": "@regression",
+        "line": 3
+      }
+    ],
+    "uri": "checkoutoverview.feature",
+    "elements": [
+      {
+        "id": "test-de-la-page-de-paiement-sur-saucedemo;vérifier-que-le-prix-total-est-visible",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Vérifier que le prix total est visible",
+        "tags": [
+          {
+            "name": "@tc-007",
+            "line": 1
+          },
+          {
+            "name": "@parcours-02",
+            "line": 2
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@verification-prix",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page de connexion",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "je me connecte avec l'utilisateur \"standard_user\" et le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "j'ajoute le produit \"sauce-labs-backpack\" au panier",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "je vais au panier",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "je clique sur le bouton checkout",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "je saisis mes informations personnelles \"test\", \"test\", \"75\"",
+            "result": {
+              "status": "passed",
+              "duration": 898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "je suis redirigé vers la page de récapitulatif",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "le prix total et le sous-total sont affichés",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-de-la-page-de-paiement-sur-saucedemo;finaliser-l'achat",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Finaliser l'achat",
+        "tags": [
+          {
+            "name": "@tc-007",
+            "line": 1
+          },
+          {
+            "name": "@parcours-02",
+            "line": 2
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@verification-produit",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page de connexion",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "je me connecte avec l'utilisateur \"standard_user\" et le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "j'ajoute le produit \"sauce-labs-backpack\" au panier",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "je vais au panier",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "je clique sur le bouton checkout",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "je saisis mes informations personnelles \"test\", \"test\", \"75\"",
+            "result": {
+              "status": "passed",
+              "duration": 889000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "je suis redirigé vers la page de récapitulatif",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "je finalise la commande",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "je suis redirigé vers la page de confirmation",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "un message de remerciement s'affiche",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-de-la-page-de-paiement-sur-saucedemo;annuler-l'achat",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Annuler l'achat",
+        "tags": [
+          {
+            "name": "@tc-007",
+            "line": 1
+          },
+          {
+            "name": "@parcours-02",
+            "line": 2
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@annulation-achat",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page de connexion",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "je me connecte avec l'utilisateur \"standard_user\" et le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 774000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "j'ajoute le produit \"sauce-labs-backpack\" au panier",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "je vais au panier",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "je clique sur le bouton checkout",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "je saisis mes informations personnelles \"test\", \"test\", \"75\"",
+            "result": {
+              "status": "passed",
+              "duration": 882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "je suis redirigé vers la page de récapitulatif",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "j'annule la commande",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "le titre de la page est \"Products\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

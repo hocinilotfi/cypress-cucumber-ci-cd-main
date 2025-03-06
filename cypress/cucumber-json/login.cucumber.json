@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Authentification utilisateur sur SauceDemo",
+    "line": 2,
+    "id": "authentification-utilisateur-sur-saucedemo",
+    "tags": [
+      {
+        "name": "@tc-001",
+        "line": 1
+      },
+      {
+        "name": "@login",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@sanity",
+        "line": 1
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "authentification-utilisateur-sur-saucedemo;connexion-avec-un-utilisateur-valide-et-un-mot-de-passe-valide",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Connexion avec un utilisateur valide et un mot de passe valide",
+        "tags": [
+          {
+            "name": "@tc-001",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@sanity",
+            "line": 1
+          },
+          {
+            "name": "@positif",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "l utilisateur est sur la page de connexion \"https://www.saucedemo.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "il saisit le nom d utilisateur \"standard_user\"",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "il saisit le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "il clique sur le bouton de connexion",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "le menu du site doit être visible",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentification-utilisateur-sur-saucedemo;connexion-avec-un-utilisateur-valide-et-un-mot-de-passe-invalide",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Connexion avec un utilisateur valide et un mot de passe invalide",
+        "tags": [
+          {
+            "name": "@tc-001",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@sanity",
+            "line": 1
+          },
+          {
+            "name": "@negatif",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "l utilisateur est sur la page de connexion \"https://www.saucedemo.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "il saisit le nom d utilisateur \"standard_user\"",
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "il saisit le mot de passe \"secret_sauce1\"",
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "il clique sur le bouton de connexion",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "un message d erreur doit etre affiche",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentification-utilisateur-sur-saucedemo;connexion-avec-un-utilisateur-invalide-et-un-mot-de-passe-valide",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Connexion avec un utilisateur invalide et un mot de passe valide",
+        "tags": [
+          {
+            "name": "@tc-001",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@sanity",
+            "line": 1
+          },
+          {
+            "name": "@negatif",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "l utilisateur est sur la page de connexion \"https://www.saucedemo.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "il saisit le nom d utilisateur \"standard_user1\"",
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "il saisit le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "il clique sur le bouton de connexion",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "un message d erreur doit etre affiche",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

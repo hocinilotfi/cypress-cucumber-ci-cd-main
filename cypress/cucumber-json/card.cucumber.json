@@ -1,0 +1,250 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Card",
+    "line": 4,
+    "id": "card",
+    "tags": [
+      {
+        "name": "@tc-005",
+        "line": 1
+      },
+      {
+        "name": "@parcours-01",
+        "line": 2
+      },
+      {
+        "name": "@regression",
+        "line": 3
+      }
+    ],
+    "uri": "card.feature",
+    "elements": [
+      {
+        "id": "card;aller-au-panier",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "aller au panier",
+        "tags": [
+          {
+            "name": "@tc-005",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 2
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@rederiction-panier",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "je clique sur le panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "je suis redirige vers la page du panier",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "card;verification-du-badge-du-panier-après-ajout-de-produits",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verification du badge du panier après ajout de produits",
+        "tags": [
+          {
+            "name": "@tc-005",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 2
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@badge",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-backpack\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-bike-light\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "le badge du panier affiche \"2\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "card;verification-des-produits-dans-le-panier",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verification des produits dans le panier",
+        "tags": [
+          {
+            "name": "@tc-005",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 2
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@verification-suppression-panier",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-backpack\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-bike-light\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "je clique sur le Panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "je clique sur le bouton Remove des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "le produit est supprime du panier",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

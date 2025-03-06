@@ -1,0 +1,171 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Tri des produits sur la page des produits",
+    "line": 5,
+    "id": "tri-des-produits-sur-la-page-des-produits",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@tc-003",
+        "line": 2
+      },
+      {
+        "name": "@parcours-01",
+        "line": 3
+      },
+      {
+        "name": "@parcours-02",
+        "line": 4
+      }
+    ],
+    "uri": "tri_az_za.feature",
+    "elements": [
+      {
+        "id": "tri-des-produits-sur-la-page-des-produits;tri-alphabétique-a-z",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Tri Alphabétique A-Z",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@tc-003",
+            "line": 2
+          },
+          {
+            "name": "@parcours-01",
+            "line": 3
+          },
+          {
+            "name": "@parcours-02",
+            "line": 4
+          },
+          {
+            "name": "@tri-az",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "je suis sur la page des produits",
+            "result": {
+              "status": "passed",
+              "duration": 1163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "je trie les produits par ordre alphabétique A-Z",
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "les produits sont triés correctement par ordre alphabétique A-Z",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tri-des-produits-sur-la-page-des-produits;tri-alphabétique-z-a",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Tri Alphabétique Z-A",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@tc-003",
+            "line": 2
+          },
+          {
+            "name": "@parcours-01",
+            "line": 3
+          },
+          {
+            "name": "@parcours-02",
+            "line": 4
+          },
+          {
+            "name": "@tri-za",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "je suis sur la page des produits",
+            "result": {
+              "status": "passed",
+              "duration": 1018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "je trie les produits par ordre alphabétique Z-A",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "les produits sont triés correctement par ordre alphabétique Z-A",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Ajout et suppression des produits de le panier",
+    "line": 2,
+    "id": "ajout-et-suppression-des-produits-de-le-panier",
+    "tags": [
+      {
+        "name": "@tc-004",
+        "line": 1
+      },
+      {
+        "name": "@parcours-01",
+        "line": 1
+      },
+      {
+        "name": "@parcours-02",
+        "line": 1
+      },
+      {
+        "name": "@e2e",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "ajoutSuppressionPanier.feature",
+    "elements": [
+      {
+        "id": "ajout-et-suppression-des-produits-de-le-panier;ajouter-des-produits-dans-le-panier",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ajouter des produits dans le panier",
+        "tags": [
+          {
+            "name": "@tc-004",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 1
+          },
+          {
+            "name": "@parcours-02",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@ajout-panier",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 1197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "je clique sur un bouton add to cart pour \"2\" produits",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "je retrouve les memes produits dans le panier",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ajout-et-suppression-des-produits-de-le-panier;ajouter-puis-supprimer-des-produits-dans-le-panier",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Ajouter puis supprimer des produits dans le panier",
+        "tags": [
+          {
+            "name": "@tc-004",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 1
+          },
+          {
+            "name": "@parcours-02",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@suppression-panier",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 981000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "je clique sur un bouton add to cart pour \"2\" produits",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "je clique sur le bouton remove pour \"1\" produit",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "je retrouve les memes produits dans le panier",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
