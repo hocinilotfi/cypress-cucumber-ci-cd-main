@@ -5,7 +5,7 @@ pipeline{
             args "--entrypoint=''"
         }   
     }
-    paramaters {
+    parameters{
         choice(name: 'ENV', choices: ['dev', 'staging', 'production'], description: 'Environment de test')
         choise(name:'TEST_TYPE', choices: ['regression', 'smoke','sanity','parcours-01','parcours-02'], description: 'Type de test')
     }
@@ -22,11 +22,6 @@ pipeline{
             steps{
                 sh "chmod +x ./bashs/*.sh"
                 sh "./bashs/${params.TEST_TYPE}.sh"
-            }
-        }
-        stage('Deploy'){
-            steps{
-                echo 'Deploying the project...'
             }
         }
     }
