@@ -8,6 +8,6 @@ Given('je suis sur la page produits', () => {
 });
 
 Then("la liste des produits doit être affichée", () => {
-  productPage.elements.productTitle().should('have.length.greaterThan', 0);
+  productPage.elements.productTitle().should('have.length.greaterThan', 343);
 });
   
